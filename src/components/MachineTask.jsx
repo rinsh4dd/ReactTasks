@@ -46,7 +46,7 @@ function Task() {
           value={text}
           onChange={handleChanges}
         />
-        <button
+        <button 
           style={{
             margin: "30px",
             height: "40px",
