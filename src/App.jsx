@@ -2,16 +2,24 @@ import ChangeTheme from "./components/ChangeTheme";
 import Apifetch from "./components/Fetch";
 import Task from "./components/MachineTask";
 import RegistrationPage from "./components/Router/RegistrationPage";
+import LoginPage from "./components/Router/LoginPage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./components/Router/HomePage";
 function App() {
-
-
   return (
     <>
-    {/* <ChangeTheme></ChangeTheme> */}
-    {/* <Apifetch></Apifetch> */}
-    {/* <Task></Task> */}
-    <RegistrationPage></RegistrationPage>
+      {/* <ChangeTheme></ChangeTheme> */}
+      {/* <Apifetch></Apifetch> */}
+      {/* <Task></Task> */}
+
+      <Router>
+        <Routes>
+          <Route path="/homepage" element={<HomePage/>}></Route>
+          <Route path="/" element={<RegistrationPage/>}/>
+          <Route path="/login" element={<LoginPage/>}/>
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 export default App;
