@@ -1,6 +1,7 @@
 import ChangeTheme from "./components/ChangeTheme";
 import Apifetch from "./components/Fetch";
 import Task from "./components/MachineTask";
+import RegistrationPage from "./components/Router/RegistrationPage";
 function App() {
 
 
@@ -8,7 +9,8 @@ function App() {
     <>
     {/* <ChangeTheme></ChangeTheme> */}
     {/* <Apifetch></Apifetch> */}
-    <Task></Task>
+    {/* <Task></Task> */}
+    <RegistrationPage></RegistrationPage>
     </>
   )
 }
