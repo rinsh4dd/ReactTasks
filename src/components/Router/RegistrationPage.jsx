@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 function RegistrationPage() {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/login");
+    navigate("/loginpage");
   };
 
   return (
@@ -39,6 +41,9 @@ function RegistrationPage() {
           required
         />
         <input type="submit" className="mt-3 rounded-2 " />
+        <br />
+        <br />
+        <Link to={"/loginpage"}>Already have account?Login</Link>
       </form>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function LoginPage() {
   const navigate = useNavigate();
@@ -19,6 +20,11 @@ function LoginPage() {
         <label htmlFor="" required>Password</label>
         <input type="password" placeholder="Enter Password"/>
         <input type="submit" className="m-4 rounded-3 border-3" />
+
+        <br />
+        <br />
+
+        <Link className="linker" to={"/" }>Don't have Account?Register now!</Link>
       </form>
     </div>
   );
