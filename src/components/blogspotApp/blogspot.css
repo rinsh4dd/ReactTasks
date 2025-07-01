@@ -22,18 +22,22 @@ body {
   color: rgb(13, 13, 13);
 }
 .child-div {
-  height: 250px;
+  height: 450px;
   background: #000;
   width: 85%;
   padding: 20px;
   overflow: hidden;
   border: 3px white solid;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .child-div input {
   border-radius: 12px;
   border: 2px rgb(0, 162, 160) solid;
   font-weight: 600;
+  height: 50px;
 }
 .child-div input:focus {
   border: 2px rgb(0, 162, 150) solid;
