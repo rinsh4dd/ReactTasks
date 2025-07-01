@@ -60,7 +60,8 @@ form input {
   width: 300px;
   background: #474747;
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left:auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,16 +74,22 @@ form input {
   text-decoration: none;
   color: rgb(0, 247, 255);
   font-size: 14px;
+  position: relative;
+  top: 100px;
 }
 .blog-keys h2 {
   color: rgb(0, 255, 255);
   font-size: 20px;
   text-transform: uppercase;
+  position: relative;
+  bottom: 100px;
 }
 .blog-keys p {
   font-size: 15px;
   color: rgb(216, 216, 216);
   font-weight: 600;
+  position: relative;
+  bottom: 60px;
 }
 .details {
   width: 300px;
