@@ -17,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: ♦40px;
+  margin-top: 40px;
   margin-bottom: 80px;
   color: rgb(13, 13, 13);
 }
@@ -46,7 +46,7 @@ form input {
   margin: 10px;
   border: 3px solid rgb(0, 0, 0);
   height: 40px;
-  width: 280px;
+  width:90%;
 }
 .bloglist {
   height: 100vh;
@@ -56,7 +56,7 @@ form input {
 }
 
 .blog-keys {
-  height: 40vh;
+  height: 320px;
   width: 300px;
   background: #474747;
   margin-top: 10px;
