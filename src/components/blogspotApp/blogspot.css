@@ -78,22 +78,22 @@ form input {
   text-decoration: none;
   color: rgb(0, 247, 255);
   font-size: 14px;
-  position: relative;
-  top: 100px;
+  
 }
 .blog-keys h2 {
   color: rgb(0, 255, 255);
   font-size: 20px;
   text-transform: uppercase;
-  position: relative;
-  bottom: 100px;
+position: relative;
+bottom: 80px;
 }
 .blog-keys p {
   font-size: 15px;
   color: rgb(216, 216, 216);
   font-weight: 600;
   position: relative;
-  bottom: 60px;
+  bottom: 80px;
+
 }
 .details {
   width: 300px;
