@@ -6,7 +6,8 @@ import LoginPage from "./components/Router/LoginPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./components/Router/HomePage";
 import CreateBlog from "./components/blogspotApp/CreateBlog";
-import OddOrEven from "./components/Router/OddOrEven/task2";
+import OddOrEven from "./components/OddOrEven/task2";
+import NotFound from "./components/blogspotApp/NotFound";
 function App() {
   return(
 
@@ -29,12 +30,18 @@ function App() {
 
       // odd or even task
 
-      <OddOrEven/>
+      // <OddOrEven/>
 
 
     // {/* blogspotApp */}
-    // <CreateBlog/>
-
+<Router>
+  <Routes>
+    <Route>
+      <Route path="/" element={<CreateBlog/>}/>
+      <Route path="*" element={<NotFound/>}/>
+    </Route>
+  </Routes>
+</Router>
 
   );
 }
