@@ -85,6 +85,7 @@ function OddOrEven() {
             marginTop: "10px",
             borderRadius: "12px",
             border: "3px solid black",
+            margin:"20px",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
