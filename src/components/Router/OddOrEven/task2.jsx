@@ -70,7 +70,7 @@ function OddOrEven() {
           />
           <input
             onClick={handleClick}
-            style={{ padding: "10px", marginLeft: "20px" }}
+            style={{ padding: "10px", marginLeft: "20px",border:"3px solid black"}}
             type="button"
             value="Submit"
             required
