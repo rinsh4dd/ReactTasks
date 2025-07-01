@@ -7,10 +7,7 @@ function Task() {
     setText(e.target.value);
   };
   const Perform = () => {
-    // text === "Rinshad" || text == "rinshad"
-    //   ? setScreen(`My Name is ${text}`)
-    //   : setScreen("Name is Wrong");\
-
+ 
     if ((text.toLowerCase()==="rinshad")) {
       setScreen(`My Name is ${text.toUpperCase()}`);
       setText("")

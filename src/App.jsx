@@ -8,17 +8,28 @@ import HomePage from "./components/Router/HomePage";
 function App() {
   return (
     <>
+
+
+      {/* task one */}
       {/* <ChangeTheme></ChangeTheme> */}
       {/* <Apifetch></Apifetch> */}
       {/* <Task></Task> */}
 
-      <Router>
+
+
+      {/* Router Task */}
+      {/* <Router>
         <Routes>
           <Route path="/homepage" element={<HomePage/>}></Route>
           <Route path="/" element={<RegistrationPage/>}/>
           <Route path="/loginpage" element={<LoginPage/>}/>
         </Routes>
-      </Router>
+      </Router> */}
+
+
+    {/* blogspotApp */}
+    
+
     </>
   );
 }
